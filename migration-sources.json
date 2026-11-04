@@ -3,13 +3,13 @@
     "path": "docs/index.html",
     "source": "https://d2vy1k7psffmhr.cloudfront.net/index.html",
     "source_sha256": "5a9a54ddf93cbfebc854f2351c34a9318638e47360edb5ef5f97e2e9babc0130",
-    "published_sha256": "667e11d31f7c09d33a8ba6378264099c606e16f943d72fea8d356b5f22058746"
+    "published_sha256": "fef343a1136968ec63a27a8580103d5c5e6c25e7a8b907a3aff7e7adc8fd3e22"
   },
   {
     "path": "docs/css/receiver.css",
     "source": "https://d2vy1k7psffmhr.cloudfront.net/css/receiver.css",
     "source_sha256": "48d27eb740a49897191282a7fa2c4eedb86d2e1fab36f7f48063fad42ce2509c",
-    "published_sha256": "662c40a2a9a109ca6a3a24591ea2d9f8205f4cf3df334bd1dd758814fb1dff3d"
+    "published_sha256": "2af4ca4561f999eacbe0dcf77c754fc4625a4bc97232782ac646facdbac86d65"
   },
   {
     "path": "docs/js/receiver.js",
@@ -27,7 +27,7 @@
     "path": "docs/chromecast/jfm_cast_receiver.css",
     "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/jfm_cast_receiver.css",
     "source_sha256": "307aab6242fef1b5866bfb64941f062808dde69aa901a9515bb85ac655c50e1d",
-    "published_sha256": "4d3565d40476a90801c7e72f167115ecd0c96306415acc913d1ffbc8d388552d"
+    "published_sha256": "1a8d447866b443107caa7626a14cdb46b21494ad5b8b2761372c7d3447b6beaa"
   },
   {
     "path": "docs/chromecast/ready.svg",

@@ -5,8 +5,13 @@ Styled Media Receiver skin. GitHub Pages publishes `docs/` from `main`.
 
 ## Hosting URLs
 
-- Current receiver: https://jesusfilm.github.io/cast-receiver/index.html
-- Legacy skin: https://jesusfilm.github.io/cast-receiver/chromecast/jfm_cast_receiver.css
+- Current receiver: https://cast.jesusfilm.org/index.html
+- Legacy skin: https://cast.jesusfilm.org/chromecast/jfm_cast_receiver.css
+
+Target custom domain: `cast.jesusfilm.org`. Cloudflare DNS uses a DNS-only CNAME
+from `cast` to `jesusfilm.github.io`. GitHub Pages must be configured for this
+custom domain before the DNS record is created. HTTPS must be verified before
+changing any Cast registration.
 
 These are replacement URLs for later testing and an explicitly authorized Cast
 console cutover. Existing Cast registrations still use AWS.
@@ -49,7 +54,7 @@ Commit static files under `docs/` to `main`. GitHub Pages deploys the branch's
 relative where possible. Cast image CSS variables are consumed inside the SDK
 shadow DOM, where relative URLs resolve against the receiver document rather
 than the external stylesheet. Both skins therefore use absolute HTTPS image
-URLs under `https://jesusfilm.github.io/cast-receiver/chromecast/`. Update these
+URLs under `https://cast.jesusfilm.org/chromecast/`. Update these
 URLs if the site moves to another host or path.
 
 To preview the static files locally:
