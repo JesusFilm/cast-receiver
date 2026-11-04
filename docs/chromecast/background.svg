@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="576" viewBox="0 0 1024 576" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop stop-color="#EF3340" offset="0%"/>
+      <stop stop-color="#B92B33" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="1024" height="576"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="c" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g fill="url(#b)">
+      <use xlink:href="#a"/>
+      <use xlink:href="#a"/>
+    </g>
+    <g style="mix-blend-mode:multiply" mask="url(#c)">
+      <rect width="1024" height="576" fill="#A9343A"/>
+      <polygon fill="#D13139" points="258 0 1020 0 0 372 0 308"/>
+      <polygon fill="#D13139" points="0 511 511.42 400.13 140 576 0 574"/>
+      <polygon fill="#663434" points="511.42 400.13 1024 141 1024 294"/>
+    </g>
+  </g>
+</svg>

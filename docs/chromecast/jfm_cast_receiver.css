@@ -1,0 +1,22 @@
+.background {
+  background-image: url(./background.svg);
+}
+
+.logo {
+  background-image: url(./loading.svg);
+  background-size: 180px;
+}
+
+.progressBar {
+  background-color: rgb(239, 51, 64);
+}
+
+.splash {
+  background-image: url(./ready.svg);
+  background-size: auto 100%;
+}
+
+.watermark {
+  background-image: url(./watermark.svg);
+  background-size: 60px;
+}

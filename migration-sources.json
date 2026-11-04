@@ -1,0 +1,56 @@
+[
+  {
+    "path": "docs/index.html",
+    "source": "https://d2vy1k7psffmhr.cloudfront.net/index.html",
+    "source_sha256": "5a9a54ddf93cbfebc854f2351c34a9318638e47360edb5ef5f97e2e9babc0130",
+    "published_sha256": "0efff64bd2dd68429020e4f3980c5d47125e344e688d5ae42192b35eeea23033"
+  },
+  {
+    "path": "docs/css/receiver.css",
+    "source": "https://d2vy1k7psffmhr.cloudfront.net/css/receiver.css",
+    "source_sha256": "48d27eb740a49897191282a7fa2c4eedb86d2e1fab36f7f48063fad42ce2509c",
+    "published_sha256": "904bc11af9058e5a4e0843d8e6464971843b901407b422973ad30eaf5511a35b"
+  },
+  {
+    "path": "docs/js/receiver.js",
+    "source": "https://d2vy1k7psffmhr.cloudfront.net/js/receiver.js",
+    "source_sha256": "001426b76cc4de0baa3b79f6b2b0137fdf328110324fc4fa6dfff59f43c49552",
+    "published_sha256": "001426b76cc4de0baa3b79f6b2b0137fdf328110324fc4fa6dfff59f43c49552"
+  },
+  {
+    "path": "docs/js/queuing.js",
+    "source": "https://d2vy1k7psffmhr.cloudfront.net/js/queuing.js",
+    "source_sha256": "c4cbd8d7d29eba913f74516cbca9e5806299be695aefbac1ff6d3cf7dd593376",
+    "published_sha256": "ad3ed9f85a8db3c5b4d53ce1d2ce461c7da1c8b415c92bf333232502c2cdca67"
+  },
+  {
+    "path": "docs/chromecast/jfm_cast_receiver.css",
+    "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/jfm_cast_receiver.css",
+    "source_sha256": "307aab6242fef1b5866bfb64941f062808dde69aa901a9515bb85ac655c50e1d",
+    "published_sha256": "3805196f4ab82321ec44edbf970036389a328a0f11c685f59329597f91c1a8a8"
+  },
+  {
+    "path": "docs/chromecast/ready.svg",
+    "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/ready.svg",
+    "source_sha256": "8acac1eae8f398931f923b579d927b020cd6dc1f11c5d66975bb41505306f346",
+    "published_sha256": "8acac1eae8f398931f923b579d927b020cd6dc1f11c5d66975bb41505306f346"
+  },
+  {
+    "path": "docs/chromecast/background.svg",
+    "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/background.svg",
+    "source_sha256": "deb0c63e23134ed8315ea24699b763d5a09cba73e947b9b5010e4b639a88aa4b",
+    "published_sha256": "deb0c63e23134ed8315ea24699b763d5a09cba73e947b9b5010e4b639a88aa4b"
+  },
+  {
+    "path": "docs/chromecast/loading.svg",
+    "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/loading.svg",
+    "source_sha256": "2b33cf9ee996b8603e2db718304c1cd6fd46ebcd25c3455ad06b5eb64e9cf6fe",
+    "published_sha256": "2b33cf9ee996b8603e2db718304c1cd6fd46ebcd25c3455ad06b5eb64e9cf6fe"
+  },
+  {
+    "path": "docs/chromecast/watermark.svg",
+    "source": "https://d1wl257kev7hsz.cloudfront.net/chromecast/watermark.svg",
+    "source_sha256": "b219fe643fc64d943ba28601377ccb640514b95686d35440f91622e9676e4e6c",
+    "published_sha256": "b219fe643fc64d943ba28601377ccb640514b95686d35440f91622e9676e4e6c"
+  }
+]
