@@ -3,6 +3,14 @@
 Static hosting for the current custom Google Cast Web Receiver and the legacy
 Styled Media Receiver skin. GitHub Pages publishes `docs/` from `main`.
 
+## Hosting URLs
+
+- Current receiver: https://jesusfilm.github.io/cast-receiver/index.html
+- Legacy skin: https://jesusfilm.github.io/cast-receiver/chromecast/jfm_cast_receiver.css
+
+These are replacement URLs for later testing and an explicitly authorized Cast
+console cutover. Existing Cast registrations still use AWS.
+
 ## Published files
 
 - `index.html`: current receiver entry point for the existing Cast application
