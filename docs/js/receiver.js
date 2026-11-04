@@ -25,18 +25,6 @@ import { CastQueue } from './queuing.js';
 const context = cast.framework.CastReceiverContext.getInstance();
 const playerManager = context.getPlayerManager();
 
-const castDebugLogger = cast.debug.CastDebugLogger.getInstance();
-
-// Enable debug logger and show a warning on receiver
-// NOTE: make sure it is disabled on production
-castDebugLogger.setEnabled(false);
-
-// Show debug overlay
-// castDebugLogger.showDebugLogs(true);
-
-// Clear log messages on debug overlay
-// castDebugLogger.clearDebugLogs();
-
 // Listen and log all Core Events.
 playerManager.addEventListener(cast.framework.events.category.CORE,
   event => {

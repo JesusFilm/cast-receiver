@@ -46,8 +46,11 @@ this Cast migration and are not repaired by changing Cast registrations.
 
 Commit static files under `docs/` to `main`. GitHub Pages deploys the branch's
 `/docs` directory; `.nojekyll` prevents Jekyll processing. Keep asset links
-relative so project-path hosting works. The CSS image URLs are relative to the
-stylesheet location, not to `index.html`.
+relative where possible. Cast image CSS variables are consumed inside the SDK
+shadow DOM, where relative URLs resolve against the receiver document rather
+than the external stylesheet. Both skins therefore use absolute HTTPS image
+URLs under `https://jesusfilm.github.io/cast-receiver/chromecast/`. Update these
+URLs if the site moves to another host or path.
 
 To preview the static files locally:
 
@@ -61,9 +64,17 @@ Actual Cast playback must be tested on Cast hardware using an HTTPS deployment.
 
 `migration-sources.json` records the original public CloudFront source URLs and
 SHA-256 hashes. The SVG images were copied without modification. Changes from
-the original hosted files are limited to local image references, explicit HTTPS
-for Google's SDK scripts, and removal of an unused commented signed-media URL
+the original hosted files are limited to migrated image references, explicit HTTPS
+for Google's SDK scripts, removal of the unused Cast Debug Logger (which requires
+a registered Cast device), and removal of an unused commented signed-media URL
 from `js/queuing.js`. Receiver playback logic is unchanged.
 
 The original Google copyright and Apache 2.0 notices are retained in the source
 files. See `THIRD_PARTY_NOTICES.md`. No license to Jesus Film branding is implied.
+
+## Browser checks
+
+Opening the receiver in a desktop browser can check image rendering, but cannot
+validate Cast playback. The SDK expects the Cast-device runtime and may log
+websocket initialization or browser permissions-policy warnings. Actual playback
+still requires a registered test Cast device and test application.

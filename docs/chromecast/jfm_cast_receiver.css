@@ -1,9 +1,9 @@
 .background {
-  background-image: url(./background.svg);
+  background-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/background.svg);
 }
 
 .logo {
-  background-image: url(./loading.svg);
+  background-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/loading.svg);
   background-size: 180px;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .splash {
-  background-image: url(./ready.svg);
+  background-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/ready.svg);
   background-size: auto 100%;
 }
 
 .watermark {
-  background-image: url(./watermark.svg);
+  background-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/watermark.svg);
   background-size: 60px;
 }

@@ -2,8 +2,8 @@
 cast-media-player {
   --theme-hue: 100;
   --progress-color: rgb(239, 51, 64);
-  --splash-image: url(../chromecast/ready.svg);
-  --background-image: url(../chromecast/background.svg);
+  --splash-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/ready.svg);
+  --background-image: url(https://jesusfilm.github.io/cast-receiver/chromecast/background.svg);
 
 }
 
